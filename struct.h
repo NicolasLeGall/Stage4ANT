@@ -25,8 +25,10 @@ struct User
 	int SNRActuels[NB_SUBCARRIERS];
 	int sommeDelais;
 	int sommeDelaisPDOR;
+	int sommeDelaisPDOR_tpsreel;
 	int sommePaquets;
-	int sommePaquets_conommer;
+	int sommePaquets_consommer;
+	int sommePaquets_consommer_tpsreel;
 	int sommeUR;
 	int bit_en_trop;
 	Packet *lePaquet;

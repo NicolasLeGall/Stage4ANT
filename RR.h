@@ -4,5 +4,6 @@
 #include "struct.h"
 
 int RR(Antenne *antenne, int nb_user, int nb_sub);
+int RR_Stable(Antenne *antenne, int nb_user, int nb_sub);
 
 #endif
